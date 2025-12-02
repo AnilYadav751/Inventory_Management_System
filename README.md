@@ -26,17 +26,17 @@ _TECH STACK_
 _PROJECT STRUCTURE_
 
 Inventory-Management-System/
-   src/
-      main/
-          java/
-              org/
-                 example/
-                 Main.java/                     
-                 InventoryService.java/         
-                 DBConnection.java/          
-    pom.xml/                        
-    README.md/                      
-   .gitignore/                       
+src/
+    main/
+         java/
+             org/
+                example/
+                Main.java/                     
+                InventoryService.java/         
+                DBConnection.java/       
+ pom.xml/                        
+ README.md/                      
+ .gitignore/                       
   
 
 
@@ -65,6 +65,7 @@ CREATE TABLE sales_log (
     sale_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     total_amount DECIMAL(10, 2)
 ); 
+
  
 3. INSERT SAMPLE DATA(Optional):
 You can insert any sample/dummy data as per your choice, for example the data given below can be inserted-
