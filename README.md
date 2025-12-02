@@ -26,18 +26,18 @@ _TECH STACK_
 _PROJECT STRUCTURE_
 
 Inventory-Management-System/
-├── src/
-│   ├── main/
-│   │   └── java/
-│   │       └── org/
-│   │           └── example/
-│   │               ├── Main.java             // Entry point (Menu System)
-│   │               ├── InventoryService.java // Business Logic (Transactions)
-│   │               └── DBConnection.java     // Database Connectivity
-├── pom.xml                                   // Maven Dependencies
-├── README.md                                 // Documentation
-└── .gitignore                                // Git configuration
-
+   src/
+      main/
+          java/
+              org/
+                 example/
+                 Main.java                      // Entry point (Menu System)
+                 InventoryService.java          // Business Logic (Transactions)
+                 DBConnection.java             // Database Connectivity
+   pom.xml                         // Maven Dependencies
+   README.md                       // Documentation
+  .gitignore                       // Git configuration
+  
 
 
 **FOLLOW these STEPS to set up the project locally.**
@@ -91,7 +91,7 @@ Run the application using your IDE or the command line.
 7. EXAMPLE USAGE:
 Here is a log of a successful transaction and reporting session-
 
-    === INVENTORY SYSTEM ===
+    === Inventory System ===
 1. Add New Product
 2. Process Sale (Transaction Demo)
 3. Generate Low Stock Report
@@ -111,8 +111,7 @@ ID    Name                 Quantity
 
 
 # Why this project?
-I built this project to master the fundamentals of backend development—specifically how Java applications communicate directly with relational databases, 
-handle complex SQL queries, and manage safe transactions in a multi-step process.
+I built this project to master the fundamentals of backend development—specifically how Java applications communicate directly with relational databases, handle complex SQL queries, and manage safe transactions in a multi-step process.
 
 Created by
 -ANIL YADAV
