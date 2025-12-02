@@ -31,12 +31,12 @@ Inventory-Management-System/
           java/
               org/
                  example/
-                 Main.java                      // Entry point (Menu System)
-                 InventoryService.java          // Business Logic (Transactions)
-                 DBConnection.java             // Database Connectivity
-   pom.xml                         // Maven Dependencies
-   README.md                       // Documentation
-  .gitignore                       // Git configuration
+                 Main.java                      
+                 InventoryService.java          
+                 DBConnection.java             
+   pom.xml                         
+   README.md                       
+  .gitignore                       
   
 
 
@@ -92,10 +92,10 @@ Run the application using your IDE or the command line.
 Here is a log of a successful transaction and reporting session-
 
     === Inventory System ===
-1. Add New Product
-2. Process Sale (Transaction Demo)
-3. Generate Low Stock Report
-4. Exit
+  Add New Product
+  Process Sale (Transaction Demo)
+  Generate Low Stock Report
+  Exit
    
 Enter choice: 2
 
@@ -103,7 +103,7 @@ Enter Product ID: 4
 Enter Quantity Sold: 1
  Sale processed successfully! Total: 3000.0
 
---- LOW STOCK REPORT (Threshold: 10) ---
+--- Low stock report (Threshold: 10) ---
 ID    Name                 Quantity  
 ----------------------------------------
 4     27-inch Monitor      4         
