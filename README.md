@@ -26,18 +26,18 @@ _TECH STACK_
 _PROJECT STRUCTURE_
 
 Inventory-Management-System/
-src/
-    main/
-         java/
-             org/
-                example/
-                Main.java/                     
-                InventoryService.java/         
-                DBConnection.java/       
- pom.xml/                        
- README.md/                      
- .gitignore/                       
-  
+                            src/
+                                main/
+                                    java/
+                                         org/
+                                             example/
+                                             Main.java/                     
+                                             InventoryService.java/         
+                                             DBConnection.java/       
+                             pom.xml/                        
+                             README.md/                      
+                            .gitignore/                       
+                              
 
 
 **FOLLOW these STEPS to set up the project locally.**
@@ -93,10 +93,11 @@ Run the application using your IDE or the command line.
 Here is a log of a successful transaction and reporting session-
 
     === Inventory System ===
-  Add New Product
-  Process Sale (Transaction Demo)
-  Generate Low Stock Report
-  Exit
+   
+  1.Add New Product
+  2.Process Sale (Transaction Demo)
+  3.Generate Low Stock Report
+  4.Exit
    
 Enter choice: 2
 
@@ -105,10 +106,11 @@ Enter Quantity Sold: 1
  Sale processed successfully! Total: 3000.0
 
 Low stock report (Threshold: 10)
-ID    Name                 Quantity  
 
-4     27-inch Monitor      4         
-6     Webcam               8
+ ID    Name               Quantity  
+
+4         27-inch Monitor      4         
+6         Webcam               8
 
 
 # Why this project?
