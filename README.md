@@ -25,18 +25,10 @@ _TECH STACK_
 
 _PROJECT STRUCTURE_
 
-Inventory-Management-System/
-                            src/
-                                main/
-                                    java/
-                                         org/
-                                             example/
-                                             Main.java/                     
-                                             InventoryService.java/         
-                                             DBConnection.java/       
-                             pom.xml/                        
-                             README.md/                      
-                            .gitignore/                       
+InventoryManagementSystem/ --> src/ --> main/ --> java/ --> org/--> example/ Main.java/, InventoryService.java/, DBConnection.java/
+                            --> pom.xml/
+                            --> README.md/
+                            --> .gitignore/                       
                               
 
 
