@@ -31,12 +31,12 @@ Inventory-Management-System/
           java/
               org/
                  example/
-                 Main.java                      
-                 InventoryService.java          
-                 DBConnection.java             
-   pom.xml                         
-   README.md                       
-  .gitignore                       
+                 Main.java/                     
+                 InventoryService.java/         
+                 DBConnection.java/          
+    pom.xml/                        
+    README.md/                      
+   .gitignore/                       
   
 
 
@@ -103,9 +103,9 @@ Enter Product ID: 4
 Enter Quantity Sold: 1
  Sale processed successfully! Total: 3000.0
 
---- Low stock report (Threshold: 10) ---
+Low stock report (Threshold: 10)
 ID    Name                 Quantity  
-----------------------------------------
+
 4     27-inch Monitor      4         
 6     Webcam               8
 
